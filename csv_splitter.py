@@ -35,7 +35,7 @@ def split(file, delimiter = ',', row_limit = 10000,
 
     Example usage
     -------------
-    >> from toolbox import csv_splitter;
+    >> from GILBypasser import csv_splitter;
     >> csv_splitter.split(open('/home/brian_lee/input.csv', 'r'));
     """
     reader = csv.reader(file, delimiter=delimiter)
